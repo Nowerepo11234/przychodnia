@@ -6,7 +6,7 @@ include_once("config.php");
 //$result = mysql_query("SELECT * FROM users ORDER BY id DESC"); // mysql_query is deprecated
 $result = mysqli_query($mysqli, "SELECT * FROM lekarz"); // using mysqli_query instead
 ?>
-
+<!DOCTYPE html>
 <html>
 <head>	
 	<title>PRZYCHODNIA</title>
