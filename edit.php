@@ -48,6 +48,7 @@ while($res = mysqli_fetch_array($result))
 	$telefon = $res['Telefon'];
 }
 ?>
+<!DOCTYPE html>
 <html>
 <head>	
 	<title>Edytuj</title>
