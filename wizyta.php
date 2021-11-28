@@ -6,7 +6,7 @@ include_once("config.php");
 //$result = mysql_query("SELECT * FROM users ORDER BY id DESC"); // mysql_query is deprecated
 $result = mysqli_query($mysqli, "SELECT l.id_Lekarz, w.Gabinet, w.Data_wizyty, w.Godzina, l.Imie, l.Nazwisko, l.Telefon FROM przychodnia.wizyta w INNER JOIN przychodnia.lekarz l ON l.id_Lekarz = w.id_Lekarz WHERE w.czyRezerwowana='0'"); // using mysqli_query instead
 ?>
-
+<!DOCTYPE html>
 <html>
 <head>	
 	<title>PRZYCHODNIA</title>
